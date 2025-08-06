@@ -1,6 +1,6 @@
 name: 03-base-workflows
 
-on: push # متى يشتغل: عند push أو PR
+on: [push, pull_request] # متى يشتغل: عند push أو PR
 
 jobs:
   laravel-tests: 
