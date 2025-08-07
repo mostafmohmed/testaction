@@ -1,19 +1,14 @@
-name: 05 Eventsssss filters
+name: 05 Events filters
 
-on: 
-    pull_request:
-     types:
+on:
+  pull_request:
+    types:
       - closed
-   
 
 jobs:
-  laravel-tests: 
+  laravel-tests:
     runs-on: ubuntu-latest  # نوع السيرفر
 
     steps:
-    
-
-      - name: print hellow word
-        run: echo "hellow  word "
-
-     
+      - name: Print hello world
+        run: echo "Hello World"
