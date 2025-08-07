@@ -1,7 +1,10 @@
-name: 04-base-workflows
+name: 05 Events filters
 
-on:  [push, pull_request]
-    
+on: 
+    pull_request:
+     types:
+      - closed
+   
 
 jobs:
   laravel-tests: 
