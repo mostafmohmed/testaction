@@ -9,7 +9,7 @@ on:
 #    tags:
 #     - v2 
     paths:
-      - 'routes/web'  
+      - 'routes/web.php'  
 jobs:
   laravel-tests:
     runs-on: ubuntu-latest  # نوع السيرفر
