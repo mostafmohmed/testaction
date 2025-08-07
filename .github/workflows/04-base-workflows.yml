@@ -1,9 +1,7 @@
 name: 04 Events filters
 
-on: 
-    pull_request:
-     types:
-      - closed
+on:  [push, pull_request]
+   
 
 jobs:
   laravel-tests: 
