@@ -6,9 +6,10 @@ on:
     #   - main
 #branches-ignore:
 # - main
-   tags:
-    - v2 
-
+#    tags:
+#     - v2 
+    paths:
+      - 'routes/web'  
 jobs:
   laravel-tests:
     runs-on: ubuntu-latest  # نوع السيرفر
