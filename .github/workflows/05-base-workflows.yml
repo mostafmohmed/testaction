@@ -2,8 +2,10 @@ name: 05 Eventsfsgggggggggfdtgdgggggggsdgdgdg filters
 
 on:
   push:
-    branches:
-      - main
+    # branches:
+    #   - main
+   branches-ignore:
+    - main
 
 jobs:
   laravel-tests:
